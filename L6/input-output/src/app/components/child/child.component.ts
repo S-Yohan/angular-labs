@@ -16,6 +16,7 @@ export class ChildComponent implements OnInit {
    * component will know to receive the value via property
    * binding.
    */
+  @Input()
   todoData: String = "";
 
   constructor() { }

@@ -6,4 +6,5 @@
 <p *ngIf="displayed">ng-if: If the bound variable 'displayed' is true, the element is displayed</p>
 <p>TODO: you can also write coditional statements in an ngif. This input box is 2-way bound to the variable 'num'</p>
 <input type = "number" [(ngModel)]="num">
-<p>This text should only be displayed when 'num' is greater than 0. Current value of 'num': {{num}}</p>
+<p></p>
+<p *ngIf = "num">This text should only be displayed when 'num' is greater than 0. Current value of 'num': {{num}}</p>

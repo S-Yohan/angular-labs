@@ -29,6 +29,8 @@ export class DogListComponent implements OnInit {
    * you should call the dogsService.getDogs(newDog); method.
    */
   addDog(){
+    let doggy : Dog = {name: this.nameInput, breed: this.breedInput, age: this.ageInput};
+    this.dogsService.addDog(doggy);
 
   }
 

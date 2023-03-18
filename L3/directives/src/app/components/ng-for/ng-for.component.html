@@ -7,5 +7,6 @@ we are going to iterate through every 'number' from the 'numbers' array.</p>
   <p>number: {{number}}</p>
 </div>
 <p>TODO: use ngFor to display all the names in the 'names' array.</p>
-<div>
+<div *ngFor = "let name of names">
+  <p> name: {{name}} </p>
 </div>

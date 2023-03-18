@@ -15,6 +15,7 @@ export class DisplayComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
   swapMount() {

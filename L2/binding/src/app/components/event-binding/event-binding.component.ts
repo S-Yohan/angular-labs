@@ -23,7 +23,9 @@ export class EventBindingComponent implements OnInit {
    * TODO: write a method to handle the clicking of button 2 which changes the button2ClickedMessage.
    * The method should be bound to the click event of button 2 via event binding.
    */
-
+  processClickButton2(){
+    this.button2ClickedMessage = "button 2 clicked!";
+  }
 
 
 

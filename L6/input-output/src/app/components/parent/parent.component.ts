@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-parent',
@@ -16,6 +16,8 @@ export class ParentComponent implements OnInit {
    * this variable should be passed into the child component from
    * this component's HTML template
    */
+
+  
   todoData: String = "";
 
   constructor() { }

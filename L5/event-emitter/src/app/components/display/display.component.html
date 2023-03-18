@@ -10,4 +10,5 @@ an EventEmitter in the button-menu component, emitting the event in the decremen
 the custom event to the doDecrement() method of the display component in its HTML tempalte.</p>
 <p>Count: {{num}}</p>
 <!--TODO: after setting up the EventEmitter in the button-menu component, bind the new event to this component.-->
-<app-button-menu (incrementEvent)="doIncrement()"></app-button-menu>
+<app-button-menu (incrementEvent)="doIncrement()" (decrementEvent) = "doDecrement()"></app-button-menu>
+
